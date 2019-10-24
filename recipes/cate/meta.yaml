@@ -1,7 +1,7 @@
 # See https://conda.io/docs/building/meta-yaml.html
 # for more information about this file.
 
-{% set version = "2.0.0" %}
+  {% set version = "2.0.0" %}
 
 package:
   name: cate
@@ -18,8 +18,8 @@ build:
     - cate-webapi-stop = cate.webapi.stop:main
 
 source:
-    url: "https://github.com/CCI-Tools/cate/archive/v{{ version }}.tar.gz"
-    sha256: 046bb37c24a694678ecf8221c057817511f488073aea6f5394a604e86f5dd166
+  url: "https://github.com/CCI-Tools/cate/archive/v{{ version }}.tar.gz"
+  sha256: 046bb37c24a694678ecf8221c057817511f488073aea6f5394a604e86f5dd166
 
 requirements:
   build:
@@ -110,6 +110,5 @@ about:
   license: MIT
   license_file: LICENSE
   license_family: MIT
-  doc_url: https://climatetoolbox.io
+  doc_url: https://cate.readthedocs.io
   dev_url: https://github.com/CCI-Tools/cate
-
